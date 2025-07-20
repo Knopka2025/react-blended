@@ -11,10 +11,10 @@
 // Створіть тип Settings, який описує цей об'єкт.
 // Типізуйте settings через цей тип.
 
-const settings = {
+const settings: {darkMode: boolean; fontSize: number; language: string}= {
   darkMode:true,
   fontSize: 16,
   language: "en",
 };
 
-console.log(settings)
+console.log(settings);
